@@ -1,0 +1,85 @@
+
+
+.container-login {
+    width: 100%;
+    height: 100%;
+    background-color: #015daa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 25%;
+    height: 20%;
+}
+
+.form {
+    width: 25%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.login-label {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login {
+    background-color: #d9d9d8;
+    outline: none;
+    border: none;
+    width: 250px;
+    height: 20px;
+    padding: 5px;
+}
+
+.form-pass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pass-label {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pass {
+    background-color: #d9d9d8;
+    outline: none;
+    border: none;
+    width: 250px;
+    height: 20px;
+    padding: 5px;
+}
+
+.send-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    padding: 10px;
+    background: #65BF73;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.send-button:hover {
+    cursor: pointer;
+}

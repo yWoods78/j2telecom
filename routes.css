@@ -1,0 +1,255 @@
+.routes-container {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #abd9c4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.routes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    
+}
+
+tbody {
+    height: 100%;
+}
+
+.nav-bar {
+    color: white;
+    margin-left: 1%;
+    margin-top: -10%;
+    font-size: 24px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+}
+
+.table-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 45vh;
+    overflow-y: scroll;
+}
+
+
+.table-container .table-labels {
+    width: 1200px;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-container .table-labels td {
+    width: 20%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: #0367A680;
+    border-bottom: 1px solid transparent;
+    padding: 5px 10px;
+}
+
+.table-container .table-labels td:last-child {
+    border-right: none;
+}
+
+.table-container tr {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+tr td {
+    width: 20%; /* Adicionando esta linha */
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+    padding: 10px
+}
+
+tr td:last-child {
+    border-right: none;
+}
+
+.new-route-container {
+    color: white;
+    font-size: 24px;
+    margin-left: 10%;
+}
+
+.new-route-container:hover {
+    cursor: pointer;
+    color: rgb(244, 244, 244);
+}
+
+.new-route-label {
+    text-decoration: underline;
+}
+
+.pop-up-container {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: #07658b;
+    width: 50%;
+    height: 60%;
+    gap: 35px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+}
+
+
+.pop-up-confirm { 
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: #07658b;
+    width: 20%;
+    height: 20%;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+    padding: 5px 10px;
+}
+
+
+.pop-up-confirm .text {
+    color: white;
+    font-size: 20px;
+
+}
+
+.pop-up-confirm .buttons {
+    display: flex;
+    gap: 150px;
+}
+
+.pop-up-confirm button {
+    background: #65BF73;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.pop-up-confirm button:hover {
+   cursor: pointer;
+}
+
+.img-close {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    display: flex;
+    align-self: flex-end;
+    margin: 10px;
+}
+
+.img-close:hover {
+    cursor: pointer;
+}
+
+.pop-up-container span {
+    margin-top: 50px;
+    color: white;
+    font-size: 24px;
+}
+
+.form-add {
+    display: grid;
+    grid-template-columns: repeat(2,23rem);
+    flex-direction: column;
+    gap: 50px;
+}
+
+.form-add input {
+    background-color: #65BF73;
+    outline: none;
+    border: none;
+    height: 60px;
+    font-size: 24px;
+    color: white;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+
+.form-add input::placeholder {
+    color: rgb(213, 213, 213);
+}
+
+.button-insert {
+    background: #65BF73;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+}
+
+.button-insert:hover {
+    cursor: pointer;
+    background: #87beb8;
+}
+.img-table {
+    width: 20px;
+    height: 20px;
+}
+
+.img-table:hover {
+    cursor: pointer;
+}
+
+
+.pop-up-exit {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: #07658b;
+    width: 25%;
+    height: 60%;
+    gap: 40px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+}
+
+.pop-up-exit span {
+    font-size: 40px;
+    color: white;
+}
+
+.img-user {
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+}
+
+.img-exit {
+    height: 66px;
+    width: 66px;
+}

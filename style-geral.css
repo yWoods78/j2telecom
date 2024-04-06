@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* HEADER */
+/* HEADER */
+/* HEADER */
+
+
+.header {
+    width: 100%;
+    height: 10%;
+    background-color: #015daa;
+    display: flex;
+    align-items: center;
+}
+
+.container-logo {
+    height: 100%;
+}
+
+.logo-header {
+    height: 100%;
+}
+
+.logo-header:hover {
+    cursor: pointer;
+}
+
+.rotas-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 55%;
+    
+}
+
+.rotas-container a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cadastro-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    
+}
+
+.cadastro-container a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.user-container {
+    width: 10%;
+    height: 70%;
+    margin-left: 5%;
+}
+
+.user-container:hover {
+    cursor: pointer;
+}
+
+.user {
+    height: 100%;
+}
