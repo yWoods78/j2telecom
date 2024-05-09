@@ -60,7 +60,7 @@
         $edit_rota = $_POST["edit-rota"];
         $edit_cod = $_POST["edit-cod"];
 
-        $stmt = $conn->prepare("UPDATE clientes SET nome=?,rua=?,numero=?,complemento=?,contato=?,rua=? WHERE cod=?");
+        $stmt = $conn->prepare("UPDATE clientes SET nome=?,rua=?,numero=?,complemento=?,contato=?,rota=? WHERE cod=?");
         $stmt->bind_param("sssssss", $edit_nome, $edit_rua, $edit_numero, $edit_comp, $edit_contato, $edit_rota,$edit_cod);
         $stmt->execute();
         $stmt->close();
